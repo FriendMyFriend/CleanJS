@@ -16,8 +16,8 @@ window.onload = function() {
     "October",
     "November",
     "December"
-    
-  ]
+  ];
+  
   switch(month) {
     case 0:
       document.querySelector(".month").innerHTML = months[0];
@@ -54,6 +54,9 @@ window.onload = function() {
     break;
     case 11:
       document.querySelector(".month").innerHTML = months[11];
+    break;
+    default:
+      // do nothing
     break;
   }
 }
