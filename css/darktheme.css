@@ -1,0 +1,11 @@
+body, html {
+  color:white;
+  background:rgb(18, 18, 18);
+}
+
+/* alternate dark theme */
+
+body, html {
+  color:white;
+  background:black;
+}
