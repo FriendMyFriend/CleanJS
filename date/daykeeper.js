@@ -36,7 +36,11 @@ window.onload = function() {
       document.querySelector(".day").innerHTML = days[6];
     break;
     default:
-      // do nothing
+      setTimeout("retry()", 5000);
     break;
   }
+}
+
+function retry() {
+  window.location.reload();
 }
