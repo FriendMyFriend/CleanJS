@@ -1,5 +1,5 @@
-var theme = 1;
-var font = 1;
+var theme = "default";
+var font = "serif";
 var title = false;
 
 if (theme == "light" || theme == "default") {
