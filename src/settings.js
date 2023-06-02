@@ -6,49 +6,39 @@ theme = "default";
 font = "serif";
 title = false;
 
-if (theme == "light" || theme == "default") 
-{
+if (theme == "light" || theme == "default") {
   document.body.style = "color:black; background:white;";
 } 
-else if (theme == "dark") 
-{
+else if (theme == "dark") {
   document.body.style = "color:white; background:rgb(18, 18, 18);";
 } 
-else if (theme == "black" || theme == "altdark") 
-{
+else if (theme == "black") {
   document.body.style = "color:white; background:black;";
 } 
-else if (theme == "light dark" || theme == "both") 
-{
+else if (theme == "light dark" || theme == "both") {
   document.querySelector("#ld").innerHTML = "<meta name='color-scheme' content='light dark'/>";
   document.querySelector(".ld").innerHTML = "<meta name='color-scheme' content='light dark'/>";
 } 
-else 
-{
+else {
   // do nothing
 }
 
-if (title == true) 
-{
+if (title == true) {
   var t = "";
   document.title = t;
 } 
-else 
-{
+else {
   // do nothing
 }
 
-if (font == "serif") 
-{
+if (font == "serif") {
   document.querySelector(".font").style = "font-family:serif;";
   document.querySelector("#font").style = "font-family:serif;";
 } 
-else if (font == "sans-serif") 
-{
+else if (font == "sans-serif") {
   document.querySelector(".font").style = "font-family:sans-serif;";
   ocument.querySelector("#font").style = "font-family:sans-serif;";
 } 
-else 
-{
+else {
   // do nothing
 }
