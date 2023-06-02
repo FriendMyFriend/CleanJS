@@ -2,11 +2,12 @@
 
 window.onload = function() {
   const dt, month, months;
+  var doc = document;
 
   dt = new Date();
   month = dt.getMonth();
-  months = [  "January",  "February", "March",  "April",  "May",  "June",  "July",  "August",  "September",  "October",  "November",  "December"];
+  months = ["January",  "February", "March",  "April",  "May",  "June",  "July",  "August",  "September",  "October",  "November",  "December"];
 
-  document.querySelector(".month").innerHTML = month[months];
-  document.querySelector("#month").innerHTML = month[months];
+  doc.querySelector(".month").innerHTML = month[months];
+  doc.querySelector("#month").innerHTML = month[months];
 }
